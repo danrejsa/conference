@@ -15,6 +15,7 @@ class Home extends Component {
 <div className="title-div" style={{display:"flex", width:"100%", height:"450px",marginLeft:"auto",marginRight:"auto"}}>
     <div className="title-text" style={{textAlign:"center",paddingTop:"5rem",marginTop:"8rem",width:"40%", background:"#f8f9fa",marginLeft:"auto",marginRight:"auto"}}>
         <h1 style={{animation: "fadeInLeft 3.25s infinite",fontSize:"80px"}}>ICASCIE <br/>2020</h1>
+        <p>9TH - 12TH Nov, 2020 | American University of Nigeria</p>
     </div>
     <div className="reg-but" style={{paddingTop:"5rem",marginTop:"3rem",width:"40%",marginLeft:"auto",marginRight:"auto"}}>
     <h2 style={{animation: "fadeInBottom 2.25s",}}> International Conference on Addressing Societal Challenges Through Innovative Engineering Research</h2>

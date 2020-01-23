@@ -62,7 +62,7 @@ const NavbarComponent = (props) => {
                         presents
                          <i> International Conference on Addressing Societal Challenges Through Innovative Engineering Research....</i>
                         <strong style={{color:"red"}}>Date</strong>: 9TH - 12TH November, 2020...
-                         <strong style={{color:"red"}}>Venue</strong> American University of Nigeria, Yola......
+                         <strong style={{color:"red"}}>Venue</strong> American University of Nigeria, Yola
             
                          </p>
                          </marquee>         
