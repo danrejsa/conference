@@ -12,7 +12,7 @@ class Home extends Component {
             <div className="title-div" style={{display:"flex", width:"100%", height:"450px",marginLeft:"auto",marginRight:"auto"}}>
             <div className="title-text" style={{textAlign:"center",paddingTop:"5rem",marginTop:"8rem",width:"40%", background:"#f8f9fa",marginLeft:"auto",marginRight:"auto"}}>
             <h1 className="icascie" >ICASCIE <br/>2020</h1>
-        <p className="icascie-bot-text">9TH - 12TH Nov, 2020 | American University of Nigeria</p>
+        <p className="icascie-bot-text">9TH - 12TH Nov, 2020 <br/> American University of Nigeria, Yola, Nigeria</p>
     </div>
     <div className="reg-but" style={{paddingTop:"5rem",marginTop:"3rem",width:"40%",marginLeft:"auto",marginRight:"auto"}}>
     <h2 className="icascie-2"> International Conference on Addressing Societal Challenges Through Innovative Engineering Research</h2>

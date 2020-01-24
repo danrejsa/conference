@@ -36,7 +36,7 @@ class Symposium extends Component {
                     <li><strong>Prof. P.A Olubambi</strong> <br/> <i>University of Johannesburg, Johannesburg, South Africa</i></li><br/>
                     <hr className="speaker-hr"/>
                     <li><strong>Prof. A.P.I. Popoola</strong> <br/> <i>Tshwane University of Technology, Pretoria, South Africa</i></li><br/>
-                    <li><strong>Dr. David Dodoo-Arhin</strong><br/><i>University of Ghana, Accra, Ghana</i></li>
+                    <li><strong>Prof. David Dodoo-Arhin</strong><br/><i>University of Ghana, Accra, Ghana</i></li>
                 </ul>
                 </div>
               
