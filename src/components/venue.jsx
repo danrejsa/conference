@@ -6,8 +6,8 @@ class Venue extends Component {
         return ( <Fragment>
             <div className="background_others">
             <div style={{ width:"90%", marginLeft:"auto", marginRight:"auto"}}>
-            <div style={{paddingTop:"3rem",textAlign:"center", color:"#fff"}}>
-                 <h1>Venue &amp; Accomodation</h1>
+            <div style={{paddingTop:"3rem",textAlign:"center", color:"red"}}>
+                 <h2 >Venue &amp; Accomodation</h2>
                  <p>To be announced shortly. Thank you!</p> 
                  </div>
                  </div>

@@ -10,7 +10,7 @@ class Register extends Component {
         <div style={{ width:"90%", marginLeft:"auto", marginRight:"auto"}}>
             <div style={{paddingTop:"3rem",textAlign:"center", color:"#fff"}}>
                  <h1>Registration</h1>
-    <Table striped style={{marginTop:"4rem", fontSize:"18px"}}>
+    <Table className="register-table" >
       <thead>
         <tr>
           <th>PARTICIPANT TYPE</th>
@@ -77,10 +77,10 @@ class Register extends Component {
         
         
         
-        <div style={{ width:"90%", marginLeft:"auto", marginRight:"auto"}}>>
+        <div style={{ width:"90%", marginLeft:"auto", marginRight:"auto"}}>
         <div style={{paddingTop:"3rem",textAlign:"center", color:"#fff"}}>
-                 <h1 style={{color:"red"}}>Payment Options</h1>
-                 <p style={{marginBottom:"5rem",color:"#333", fontSize:"20px"}}>Bank Transfer in any of the following Bank Accounts: 
+                 <h1 class="register-payment">Payment Options</h1>
+                 <p className="register-payment-option">Bank Transfer in any of the following Bank Accounts: 
                      <br/> <strong>CLEARLY INDICATE "ICASCIE 2020" on the teller <br/>
                      <br/>
                      Local Currency (Naira) Foreign Currency (USD) <br/>

@@ -56,8 +56,9 @@ const NavbarComponent = (props) => {
                   <ul className="list-inline">
                          
                    
+                  <div class="marquee-div" >
                    <marquee>
-                       <p style={{marginTop:"3px",color:"#fff"}}>
+                       <p  class="marquee-text" >
                        The Nigerian Society of Engineers Yola Branch
                         presents
                          <i> International Conference on Addressing Societal Challenges Through Innovative Engineering Research....</i>
@@ -65,7 +66,8 @@ const NavbarComponent = (props) => {
                          <strong style={{color:"red"}}>Venue</strong> American University of Nigeria, Yola
             
                          </p>
-                         </marquee>         
+                         </marquee>   
+                         </div>          
                                                      
                    </ul>
                 </div>

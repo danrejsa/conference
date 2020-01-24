@@ -12,7 +12,7 @@ class Home extends Component {
             <div className="title-div" style={{display:"flex", width:"100%", height:"450px",marginLeft:"auto",marginRight:"auto"}}>
             <div className="title-text" style={{textAlign:"center",paddingTop:"5rem",marginTop:"8rem",width:"40%", background:"#f8f9fa",marginLeft:"auto",marginRight:"auto"}}>
             <h1 className="icascie" >ICASCIE <br/>2020</h1>
-        <p>9TH - 12TH Nov, 2020 | American University of Nigeria</p>
+        <p className="icascie-bot-text">9TH - 12TH Nov, 2020 | American University of Nigeria</p>
     </div>
     <div className="reg-but" style={{paddingTop:"5rem",marginTop:"3rem",width:"40%",marginLeft:"auto",marginRight:"auto"}}>
     <h2 className="icascie-2"> International Conference on Addressing Societal Challenges Through Innovative Engineering Research</h2>
@@ -108,7 +108,7 @@ class Home extends Component {
 </div>
 </div>
 
-<div id="background3">
+<div id="background33">
 <div className="organizing-div" >
      <div style={{textAlign:"center"}}>
       <h1 className="organizing-div-text" >Organizing Committee</h1>
@@ -141,7 +141,7 @@ class Home extends Component {
     <hr/>
     <div className="important-date-text-div" ><strong className="important-date-text2-text">July 20th, 2020</strong>  <strong className="important-date-text-text-2" >  Final notification of acceptance abstract/full paper submission</strong></div>
     </div>
-    <div className="reg-but" style={{color:"gray",paddingTop:"5rem",marginTop:"5rem",width:"30%",marginLeft:"auto",marginRight:"auto"}}>
+    <div className="reg-but" >
     <h2 className="early-bird-text">Get an Early Bird Discount</h2>
 
     <a href="/register_now"><div className="join-now-btn2">

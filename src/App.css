@@ -3,7 +3,83 @@
     font-family: 'Montserrat', sans-serif !important;
     width:100%;
   }
+
+  @-webkit-keyframes zoomInTop{0%{-webkit-transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);opacity:0;
+    -webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{-webkit-transform:scale3d(.475,.475,.475) translate3d(0,60px,0);transform:scale3d(.475,.475,.475) translate3d(0,60px,0);opacity:1;
+    -webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}
+    @keyframes zoomInTop{0%{-webkit-transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);opacity:0;
+    -webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{-webkit-transform:scale3d(.475,.475,.475) translate3d(0,60px,0);transform:scale3d(.475,.475,.475) translate3d(0,60px,0);opacity:1;
+    -webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoom-in-top{-webkit-animation-name:zoomInTop;animation-name:zoomInTop}
   
+    .early-bird-text{    
+      animation: zoomInTop 3.25s infinite ;
+    }
+
+.submission{
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:40rem;
+  }
+
+  .register-table{
+    margin-top:1.5rem;
+    font-size:18px;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    color:#000 !important;
+  }
+  .register-payment-option{
+    margin-bottom:1rem;
+    color:#333;  
+    font-size:24px !important;
+  }
+
+  .register-payment{
+    color:red;
+   
+  }
+    .important-date-text2-text {
+      margin-right: 1rem !important;
+      margin-left: 1rem;
+      color: red;
+      text-align-last: right;
+  }
+
+    .icascie-bot-text{     
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 14px;   
+    }
+
+    .about-icascie-text {
+      font-size: 20px;
+      color: #fff !important;
+  }
+
+  .about-icascie-text-2 {
+    font-size: 20px;
+    color: #fff !important;
+}
+
+.about-icascie-text-ul{
+  color:#fff !important;
+}
+
+    .reg-but{
+      color:gray;
+      padding-top:5rem;
+      margin-top:5rem;
+      width:30%;
+      margin-left:auto;
+      margin-right:auto;
+      }
+
+      .icascie-2 {
+        animation: fadeInBottom 2.25s;
+        color: #fff;
+    }
   section{
     background:url("./assets/slanted4.svg");
   }
@@ -20,13 +96,13 @@
   }
   
   .background_others{
-    background:url("./assets/slanted3.svg");
-    height:700px;
+    background:url("./assets/venue.jpg") ;
+    height:1000px;
     width:100%;  
+  
   }
   #background2{
     background:url("./assets/slanted2.svg") ;
-    
     width:100%; 
   }
   
@@ -39,8 +115,14 @@
     width:100%; 
     background:url("./assets/slanted2.svg") no-repeat ;
   }
+
+  #background33{  
+    width:100%; 
+    background:url("./assets/slanted2.svg") no-repeat ;
+    height:470px;
+  }
   
-  #background4{  
+  #background4{ 
    
     width:100%; 
   }
@@ -128,6 +210,14 @@
     color:gray !important;
     font-size: 19px !important;
   }
+
+  .marquee-div{
+    padding:5px;
+  }
+  .marquee-text{
+    color:#fff;
+    margin-top:10px;
+  }
   
   .dropup, .dropdown {
     position: relative;
@@ -152,7 +242,52 @@
   }
   
   
+  .plenary-speaker{
+    color:#fff;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .plenary-speaker-div{
+    padding-top:9rem;
+    text-align:center;
+    color:#fff;
+  }
+
+  .plenary-speaker-ul{
+    color:#fff;
+    font-size:17px;
+    list-style-type:none;
+    line-height: initial;
+  }
+
+  .keynote-speaker{
+    margin-bottom:-22px;
+    color:#333;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    }
   
+    .keynote-speaker-div{
+      padding-top:3rem;
+      text-align:center;
+      color:#333;
+    }
+
+    .keynote-speaker-ul{
+      color:#333;
+      font-size:18px;
+      list-style-type:none;
+      line-height: initial;
+    }
+.speaker-hr{
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+   
   
   #sp-header {
     background: #222454;
@@ -165,9 +300,7 @@
     padding: 0px 30px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
     color: white;
-  }
-  
-  
+  } 
   
   
   #sp-bottom {
@@ -195,6 +328,14 @@
     margin-right: -15px;
     margin-left: -15px;
   }
+
+  .organizing-div-ul {
+    animation: fadeIn 13.25s infinite;
+    font-size: 20px;
+    padding: 2rem !important;
+    color: #fff;
+    margin-top: 4rem;
+}
   
   
   
@@ -777,7 +918,8 @@
           }
     
           .early-bird-text{
-            font-size:20px
+            font-size:20px;
+            animation: zoomInTop 3.25s infinite ;
           }
     
           .join-now-btn2{
@@ -820,6 +962,36 @@
 
 
           @media only screen and (max-width:768px){
+
+            body{
+              width:fit-content !important;
+            }
+
+            .important-date-text-text {
+              margin-right: 1rem;
+              margin-left: -3.1rem !important;
+              color: red;
+              font-size: 13px;
+          }
+            .register-table{
+              margin-top:1.5rem;
+              font-size:14.5px;
+              width:90%;
+              margin-left:auto;
+              margin-right:auto;
+              color:#000 !important;
+            }
+            .register-payment-option{
+              margin-bottom:-3rem;
+              color:#333;  
+            }
+        
+            .register-payment{
+              color:red;
+              font-size:24px;
+            }
+            
+
             .header-links{
               font-size:14px;
               margin-right:1rem;
@@ -969,7 +1141,8 @@
                 }
           
                 .early-bird-text{
-                  font-size:20px
+                  font-size:20px;
+                  animation: zoomInTop 3.25s infinite ;
                 }
           
                 .join-now-btn2{
@@ -1002,6 +1175,11 @@
                     line-height: 1.6;
                     margin-top:6rem;
                   }
+                  .icascie-2 {
+                    animation: fadeInBottom 2.25s;
+                    font-size: 20px;
+                    color: #fff;
+                }
                 }
       
       
@@ -1071,19 +1249,24 @@
     }
     .about-icascie-text{
       font-size:16px;
-      color:#000;
+      color:#fff;
     }
 
     .about-icascie-text-2{
       font-size:16px;
-      color:#000;
+      color:#fff;
     }
 
     .about-icascie-text-ul{
       font-size:16px;
-      color:#000;
+      color:#fff;
     }
 
+    .icascie-2 {
+      animation: fadeInBottom 2.25s;
+      font-size: 15px;
+      color: #fff;
+  }
     .technical-div{
       width:90%;
       margin-top:2.5rem;
@@ -1102,7 +1285,6 @@ animation: fadeIn 13.25s infinite;
  font-size:16px;
  margin-top:2.5rem;
  color:#000;
- 
 }
 
 .organizing-div-text{
@@ -1114,7 +1296,8 @@ animation: fadeIn 13.25s infinite;
   animation: fadeIn 13.25s infinite;
   font-size:16px;
   padding:1rem;
-  color:#000; 
+  color:#fff; 
+  margin-top:10px;
 }
 .important-date-header{
   font-size:18px;
@@ -1139,13 +1322,13 @@ animation: fadeIn 13.25s infinite;
 
       .important-date-text-text{
         margin-right:1rem;
-        margin-left:1rem;
+        margin-left:1rem !important;
         color:red;
         font-size:12px;
       }
       .important-date-text-text-2{      
-        margin-left:1rem;       
-        font-size:12px;
+        margin-left:1.5rem;       
+        font-size:12px;        
       }
 
       .important-date-text2-text{
@@ -1156,11 +1339,29 @@ animation: fadeIn 13.25s infinite;
       }
 
       .important-date{
-      height:400px;       
+      height:400px; 
+          
+      }
+      .important-date-div{
+        margin-bottom: 7rem;
+    margin-top: 1rem;
+      }
+      #sp-bottom{
+        margin-top: -7rem !important;
+      }
+
+      .reg-but{
+      color:gray;
+      padding-top:5rem;
+      margin-top:0rem;
+      width:30%;
+      margin-left:auto;
+      margin-right:auto;
       }
 
       .early-bird-text{
-        font-size:15px
+        font-size:15px;
+        animation: zoomInTop 3.25s infinite ;
       }
 
       .join-now-btn2{
@@ -1196,7 +1397,90 @@ animation: fadeIn 13.25s infinite;
      #background2{
        height:920px;
      }
+  .plenary-speaker{
+    color:#fff;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .plenary-speaker-div{
+    padding-top:1.2rem;
+    text-align:center;
+    color:#fff;
+  }
+
+  .plenary-speaker-ul{
+    color:#fff;
+    font-size:16px;
+    list-style-type:none;
+    margin-left: -50px;
+    line-height: initial;
+  }
+
+  .keynote-speaker{
+  margin-bottom:-22px;
+  color:#333;
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+  }
+
+  .keynote-speaker-div{
+    padding-top:3rem;
+    text-align:center;
+    color:#333;
+  } 
+
+  .keynote-speaker-ul{
+    color:#333;
+    font-size:16px;
+    list-style-type:none;
+    margin-left: -30px;
+    line-height: initial;
+  }
   
-  
-        
+  .speaker-header{
+    font-size:24px;
+    padding-top:2rem;
+  }    
+  .marquee-div{
+    padding:2px;
+  }
+  .marquee-text{
+    color:#fff;
+    font-size:13px;
+    margin-top: 10px;
+  }
+
+  #background33{
+    height:800px !important;
+  }
+
+  .submission{
+    width:90%;
+    font-size:18px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10rem;
+    }
+
+    .register-table{
+      margin-top:1.5rem;
+      font-size:11px;
+      width:90%;
+      margin-left:auto;
+      margin-right:auto;
+      color:#000 !important;
+    }
+    .register-payment-option{
+      margin-bottom:8rem;
+      color:#333;  
+      font-size:15px !important;
+    }
+
+    .register-payment{
+      color:red;
+      font-size:24px;
+    }
 }
