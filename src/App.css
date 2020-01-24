@@ -109,6 +109,7 @@
   #background-speaker{
     background:url("./assets/slanted2.svg") ;
    padding:3px;
+   margin-bottom:8rem;
     width:100%; 
   }
   #background3{  
