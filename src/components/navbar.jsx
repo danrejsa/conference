@@ -59,7 +59,7 @@ const NavbarComponent = (props) => {
                   <div class="marquee-div" >
                    <marquee>
                        <p  class="marquee-text" >
-                       The Nigerian Society of Engineers Yola Branch
+                       The Nigerian Society of Engineers, Yola Branch,
                         presents
                          <i> International Conference on Addressing Societal Challenges Through Innovative Engineering Research....</i>
                         <strong style={{color:"red"}}>Date</strong>: 9TH - 12TH November, 2020...
