@@ -11,11 +11,11 @@ class Home extends Component {
            <div className="background1">
             <div className="title-div" style={{display:"flex", width:"100%", height:"450px",marginLeft:"auto",marginRight:"auto"}}>
             <div className="title-text" style={{textAlign:"center",paddingTop:"5rem",marginTop:"8rem",width:"40%", background:"#f8f9fa",marginLeft:"auto",marginRight:"auto"}}>
-            <h1 style={{animation: "fadeInLeft 3.25s infinite",fontSize:"80px"}}>ICASCIE <br/>2020</h1>
+            <h1 className="icascie" >ICASCIE <br/>2020</h1>
         <p>9TH - 12TH Nov, 2020 | American University of Nigeria</p>
     </div>
     <div className="reg-but" style={{paddingTop:"5rem",marginTop:"3rem",width:"40%",marginLeft:"auto",marginRight:"auto"}}>
-    <h2 style={{animation: "fadeInBottom 2.25s",}}> International Conference on Addressing Societal Challenges Through Innovative Engineering Research</h2>
+    <h2 className="icascie-2"> International Conference on Addressing Societal Challenges Through Innovative Engineering Research</h2>
 
     <a href="/register_now"> <div className="join-now-btn">
              <span style={{ marginLeft: "1.2rem" }}>REGISTER NOW</span>{" "}
@@ -29,10 +29,10 @@ class Home extends Component {
 
   </div>
   <div id="background2">
-      <div style={{padding:"3.5rem", textAlign:"center", width:"90%",marginTop:"6rem", marginLeft:"auto", marginRight:"auto"}}>
-      <h1>About ICASCIE</h1>
-     <div style={{marginTop:"5rem", textAlign:"justify"}}>
-     <p style={{fontSize:"22px", color:"#fff"}}>The International Conference is organized to address Societal Challenges through Innovative
+  <div className="about-div" style={{padding:"3.5rem", textAlign:"center", width:"90%",marginTop:"6rem", marginLeft:"auto", marginRight:"auto"}}>
+      <h1 className="about-icascie">About ICASCIE</h1>
+     <div className="about-icascie-div" >
+     <p className="about-icascie-text" >The International Conference is organized to address Societal Challenges through Innovative
           Engineering Research (ICASCIE 2020). The conference is amied at bringing together from all works of life,
           worldwide researchers in the provision of sustainable and ensuring lasting solutions are proffered to global 
           societal challenges faced by larger populous through innovative research.
@@ -41,10 +41,10 @@ class Home extends Component {
           conference will be 3-day technical presentations that cover the highlighted challenges
           and their solutions.
       </p>
-      <p style={{fontSize:"22px", color:"#fff"}}>
+      <p className="about-icascie-text-2">
           The Conference Technical Sessions will be devoted to:
       </p>
-      <ul style={{fontSize:"22px", color:"#fff"}}>
+      <ul className="about-icascie-text-ul" >
           <li>Infrastructure</li>
           <li>Food Security</li>
           <li>Renewable Energy</li>
@@ -64,11 +64,11 @@ class Home extends Component {
 
  
 <div id="background4">
-<div style={{ width:"90%",marginTop:"5rem", marginLeft:"auto", marginRight:"auto"}}>
+<div className="technical-div" >
      <div style={{textAlign:"center"}}>
-      <h1>Technical Committee</h1>
+      <h1 className="technical-div-text">Technical Committee</h1>
       </div>
-      <ul style={{animation: "fadeIn 13.25s infinite",fontSize:"22px", marginTop:"5rem", color:"#000"}}>
+      <ul className="technical-div-ul" >
 
           <li>Dr. Olawale Olanrewaju | Federal University of Technology Akure, Nigeria</li>
           <li>Dr. Oladeji Ige | Obafemi Awolowo University IIe-Ife, Nigeria</li>
@@ -109,12 +109,11 @@ class Home extends Component {
 </div>
 
 <div id="background3">
-<div style={{width:"90%",marginTop:"3.5rem", marginLeft:"auto", marginRight:"auto"}}>
+<div className="organizing-div" >
      <div style={{textAlign:"center"}}>
-      <h1>Organizing Committee</h1>
+      <h1 className="organizing-div-text" >Organizing Committee</h1>
       </div>
-      <ul style={{ animation: "fadeIn 13.25s infinite",fontSize:"22px",  padding:"7rem", color:"#fff"}}>
-
+      <ul className="organizing-div-ul" >
           <li>Engr. Umar Adamu | Local Government Service Commision, Yola, Nigeria</li>
           <li>Engr. Mundi M. Ibrahim | Adamawa State Ministry of Works, Yola, Nigeria</li>
           <li>Engr. (Dr.) Feyisayo V. Adams | American University of Nigeria, Yola, Nigeria</li>
@@ -125,23 +124,25 @@ class Home extends Component {
           <li>Engr. Aminu A. Yaro | Federal College of Education, Yola, Nigeria</li>
           <li>Engr. Munyale Zira | Union Bank of Nigeria, Yola, Nigeria</li>
           <li>Engr. Kachalla A. Kau | Modibbo Adama University of Technology, Yola, Nigeria</li>
-          
+         
       </ul>
 </div>
 </div>
 
 <div >
-<div className="title-div" style={{marginBottom:"2rem",display:"flex", width:"100%", height:"450px",marginLeft:"auto",marginRight:"auto"}}>
-    <div className="title-text" style={{color:"gray",boxShadow: "0 5px 45px 0 rgba(89, 109, 121, 0.2)",paddingTop:"1rem",marginTop:"6rem",borderRadius:"20px",width:"60%", background:"#fff",marginLeft:"auto",marginRight:"auto"}}>
-        <div style={{textAlign:"center"}}><h1 style={{fontSize:"35px"}}>Important Dates</h1></div>
-        <div style={{marginTop:"2rem", fontSize:"20px"}}><strong style={{marginRight:"12rem", marginLeft:"1em", fontSize:"22px"}}>Date</strong><strong>Topic</strong></div>
+<div className="important-date" >
+    <div className="important-date-div" >
+        <div style={{textAlign:"center"}}>
+            <h1 className="important-date-header" >Important Dates</h1>
+        </div>
+        <div className="important-date-header-2"  ><strong className="important-date-header-3"  >Date</strong><strong>Topic</strong></div>
     <hr/>
-    <div style={{marginTop:"2rem"}}><strong style={{marginRight:"1rem", marginLeft:"1rem" , color:"red"}}>Jan 20th - June 20th, 2020</strong> - <strong >  Abstract/full paper submission</strong></div>
+    <div className="important-date-text-div" ><strong className="important-date-text-text" >Jan 20th - June 20th, 2020</strong>  <strong className="important-date-text-text-2">  Abstract/full paper submission</strong></div>
     <hr/>
-    <div style={{marginTop:"2rem"}}><strong style={{marginRight:"6.9rem", marginLeft:"1rem", color:"red"}}>July 20th, 2020</strong> - <strong >  Final notification of acceptance abstract/full paper submission</strong></div>
+    <div className="important-date-text-div" ><strong className="important-date-text2-text">July 20th, 2020</strong>  <strong className="important-date-text-text-2" >  Final notification of acceptance abstract/full paper submission</strong></div>
     </div>
     <div className="reg-but" style={{color:"gray",paddingTop:"5rem",marginTop:"5rem",width:"30%",marginLeft:"auto",marginRight:"auto"}}>
-    <h2>Get an Early Bird Discount</h2>
+    <h2 className="early-bird-text">Get an Early Bird Discount</h2>
 
     <a href="/register_now"><div className="join-now-btn2">
               <span style={{ marginLeft: "1.2rem" }}>REGISTER NOW</span>{" "}
