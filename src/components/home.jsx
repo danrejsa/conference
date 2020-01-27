@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Register from "./register";
+import { Container, Table} from 'reactstrap';
 
 
 class Home extends Component {
@@ -135,11 +136,26 @@ class Home extends Component {
         <div style={{textAlign:"center"}}>
             <h1 className="important-date-header" >Important Dates</h1>
         </div>
-        <div className="important-date-header-2"  ><strong className="important-date-header-3"  >Date</strong><strong>Topic</strong></div>
-    <hr/>
-    <div className="important-date-text-div" ><strong className="important-date-text-text" >Jan 20th - June 20th, 2020</strong>  <strong className="important-date-text-text-2">  Abstract/full paper submission</strong></div>
-    <hr/>
-    <div className="important-date-text-div" ><strong className="important-date-text2-text">July 20th, 2020</strong>  <strong className="important-date-text-text-2" >  Final notification of acceptance abstract/full paper submission</strong></div>
+
+        <Table className="register-table" >
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Topic</th>         
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Jan 20th - June 20th, 2020</th>
+          <td> Abstract/full paper submission</td>         
+        </tr>
+        <tr>
+          <th scope="row">July 20th, 2020</th>
+          <td> Final notification of acceptance abstract/full paper submission</td>         
+        </tr>
+        </tbody>
+        </Table>
+    
     </div>
     <div className="reg-but" >
     <h2 className="early-bird-text">Get an Early Bird Discount</h2>

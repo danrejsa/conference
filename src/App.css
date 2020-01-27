@@ -1136,6 +1136,10 @@
                   font-size:13px;
                   color:red;
                 }
+
+                .important-date-div{
+                  height: fit-content;
+                }
           
                 .important-date{
                 height:300px;       
@@ -1344,11 +1348,11 @@ animation: fadeIn 13.25s infinite;
           
       }
       .important-date-div{
-        margin-bottom: 7rem;
+        margin-bottom: 6rem;
     margin-top: 1rem;
       }
       #sp-bottom{
-        margin-top: -7rem !important;
+        margin-top: -5rem !important;
       }
 
       .reg-but{
