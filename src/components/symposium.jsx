@@ -31,7 +31,7 @@ class Symposium extends Component {
                     <hr className="speaker-hr"/>
                     <li><strong>Engr. T.S.G Wudil</strong> <br/><i> Deputy Presisent, The Nigerian Society of Engineers</i></li><br/>
                    <hr className="speaker-hr"/>
-                    <li><strong>Engr. (Prof.) A. Raji</strong> <br/> <i>Modibbo Adama University of Technology, Yola, Nigeria</i></li><br/>
+                    <li><strong>Dr. Sandip Rakshit</strong> <br/> <i>American University of Nigeria, Yola, Nigeria</i></li><br/>
                     <hr className="speaker-hr"/>
                     <li><strong>Prof. P.A Olubambi</strong> <br/> <i>University of Johannesburg, Johannesburg, South Africa</i></li><br/>
                     <hr className="speaker-hr"/>

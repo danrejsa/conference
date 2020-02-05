@@ -146,11 +146,11 @@ class Home extends Component {
       </thead>
       <tbody>
         <tr>
-          <th scope="row">Jan 20th - June 20th, 2020</th>
+          <th scope="row">Feb 20th - July 20th, 2020</th>
           <td> Abstract/full paper submission</td>         
         </tr>
         <tr>
-          <th scope="row">July 20th, 2020</th>
+          <th scope="row">August 20th, 2020</th>
           <td> Final notification of acceptance abstract/full paper submission</td>         
         </tr>
         </tbody>

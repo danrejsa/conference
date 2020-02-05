@@ -83,14 +83,12 @@ class Register extends Component {
                  <p className="register-payment-option">Bank Transfer in any of the following Bank Accounts: 
                      <br/> <strong>CLEARLY INDICATE "ICASCIE 2020" on the teller <br/>
                      <br/>
-                     Local Currency (Naira) Foreign Currency (USD) <br/>
-                     Bank Name: <span style={{color:"blue"}}>Zenith Bank</span> <br/>
-                     Name: <span style={{color:"blue"}}>NSE Yola Branch</span> <br/>
-                     Account No: <span style={{color:"blue"}}>1013650851</span> <br/><br/>
-                     Domiciliary Account: <br/>
-                     Name:<br/>
-                     SORT CODE:<br/>
-                     SWIFT CODE:
+                    
+                     Bank Name: <span style={{color:"gray"}}>Zenith Bank</span> <br/>
+                     Name: <span style={{color:"gray"}}>NSE Yola Branch</span> <br/>
+                     Account No: <span style={{color:"gray"}}>1013650851</span> <br/>
+                     SORT CODE: <span style={{color:"gray"}}>057090018</span><br/>
+                     SWIFT CODE: <span style={{color:"gray"}}>ZEIBNGLAWEB</span> 
 
                      </strong>
                  </p>

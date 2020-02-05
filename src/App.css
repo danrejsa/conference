@@ -1348,9 +1348,10 @@ animation: fadeIn 13.25s infinite;
           
       }
       .important-date-div{
-        margin-bottom: 6rem;
-    margin-top: 1rem;
+      margin-bottom: 6rem;
+      margin-top: 1rem;
       }
+      
       #sp-bottom{
         margin-top: -5rem !important;
       }
@@ -1365,23 +1366,23 @@ animation: fadeIn 13.25s infinite;
       }
 
       .early-bird-text{
-        font-size:15px;
-        animation: zoomInTop 3.25s infinite ;
+      font-size:15px;
+      animation: zoomInTop 3.25s infinite ;
       }
 
       .join-now-btn2{
-        box-shadow: 0 0 0 0 rgb(102, 51, 153);
-        cursor:pointer;
+      box-shadow: 0 0 0 0 rgb(102, 51, 153);
+      cursor:pointer;
         -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
         -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
         -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-          border : 1px solid rgb(102, 51, 153);
-          border-radius:6px;
-          margin-top:2rem;
-          background:rebeccapurple;
-          color:#fff;
-          width:100px;
-          height:40px;
+      border : 1px solid rgb(102, 51, 153);
+      border-radius:6px;
+      margin-top:2rem;
+      background:rebeccapurple;
+      color:#fff;
+      width:100px;
+        height:40px;
           font-size:8px;
           text-align: center;
           margin-bottom:3rem;
