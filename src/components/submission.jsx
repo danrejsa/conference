@@ -8,8 +8,8 @@ class Submission extends Component {
             <div style={{width:"85%",marginLeft:"auto", marginRight:"auto",fontSize:"18px",paddingTop:"3rem", color:"#333"}}>
                  <h3 style={{textDecoration:"underline"}}>Abstract Guidelines Structure</h3>
                  <ul> 
-                     <li>The acceptable word range for the abstract is 150 - 250 words</li>
-                     <li>Your abstract should be submitted in English</li>
+                     <li>The acceptable word range for the abstract is 150 - 250 words.</li>
+                     <li>Your abstract should be submitted in English.</li>
                      <li>we encourage you to send <strong>informative abstract </strong> (complete abstract), which
                      include include background, purpose, methodology, results, conclusion and keywords.</li>
 
@@ -22,8 +22,8 @@ class Submission extends Component {
                  <h3 style={{textDecoration:"underline"}}>Abstract Submission</h3>
                  <ul> Once you prepared your abstract according to the above guidelines,
 
-                     <li>Submit your abstract to <strong style={{color:"red",textDecoration:""}}> yolabranchnse@gmail.com</strong></li>
-                     <li>After sumission, you will be acknowledged of the receipt of the abstract via an email as soon as possible</li>
+                     <li>Submit your abstract to <strong style={{color:"red",textDecoration:""}}> yolabranchnse@gmail.com</strong>.</li>
+                     <li>After sumission, you will be acknowledged of the receipt of the abstract via an email as soon as possible.</li>
                </ul>               
                  </div>
                  </div>
