@@ -4,6 +4,7 @@ class Submission extends Component {
     state = {  }
     render() { 
         return ( <Fragment>
+            <div className="sub"><h2><center style={{marginTop:"2rem"}}>Submission</center></h2></div>
              <div className="sub" >
             <div style={{width:"85%",marginLeft:"auto", marginRight:"auto",fontSize:"18px",paddingTop:"4rem", color:"#333"}}>
                  <h3 style={{textDecoration:"underline"}}>Abstract Guidelines Structure</h3>
