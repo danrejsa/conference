@@ -18,7 +18,7 @@ class Footer extends Component {
                                             <div class="sppb-addon-content">
                                                  <p >
                                                      <strong>ICASCIE 2020</strong>
-                                                     <p style={{marginTop:"1rem"}}>Nigerian Society of Engineers<br/>
+                                                     <p style={{marginTop:"1rem"}}>The Nigerian Society of Engineers<br/>
                                                      Yola Branch, Nigeria</p>
                                                 </p>
                                             </div>
