@@ -5,7 +5,7 @@ class Submission extends Component {
     render() { 
         return ( <Fragment>
              <div className="sub" >
-            <div style={{width:"85%",marginLeft:"auto", marginRight:"auto",fontSize:"18px",paddingTop:"3rem", color:"#333"}}>
+            <div style={{width:"85%",marginLeft:"auto", marginRight:"auto",fontSize:"18px",paddingTop:"4rem", color:"#333"}}>
                  <h3 style={{textDecoration:"underline"}}>Abstract Guidelines Structure</h3>
                  <ul> 
                      <li>The acceptable word range for the abstract is 150 - 250 words.</li>
@@ -28,7 +28,7 @@ class Submission extends Component {
                  </div>
                  </div>
             <div className="sub" >
-            <div style={{width:"85%",marginLeft:"auto", marginRight:"auto", fontSize:"18px",paddingTop:"1.8rem", paddingBottom:"3.7rem",color:"#333"}}>
+            <div style={{width:"85%",marginLeft:"auto", marginRight:"auto", fontSize:"18px",paddingTop:"1.8rem", paddingBottom:"5rem",color:"#333"}}>
                  <h3 style={{textDecoration:"underline"}}>Reviewing Process</h3>
                  <ul> The Conference Proceedings will be published in a Scopus indexed
                      IOP Conference Series after a rigorous double-blind peer-review process.
