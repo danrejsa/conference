@@ -34,7 +34,7 @@ class Register extends Component {
         </tr>
         <tr>
           <th scope="row">Students</th>
-          <td>25,000 NGN</td>
+          <td>40,000 NGN</td>
           <td>Feb. 15, 2020</td>
           <td>N/A</td>
         </tr>

@@ -90,9 +90,9 @@ class Home extends Component {
           <li>Engr. (Prof.) Shehu Iya | Modibbo Adama University of Technology, Yola, Nigeria</li>
           <li>Engr. Ojo Samuel | Federal Polytechnic, Mubi, Nigeria </li>
           <li>Dr. Oladotun Bolade | University of the Witwatersrand, Johannesburg, South Africa </li>
-          <li>Dr. Ogheneruona Diemu | University of Port Harcourt, Nigeria</li>
+          <li>Dr. Ogheneruona Diemuodeke | University of Port Harcourt, Port Harcourt, Nigeria</li>
           <li>Prof. Akeem A. Raheem | Ladoke Akintola University, Ogbomosho, Nigeria</li>
-          <li>Prof. Bolade O. Agboola | American University of Nigeria, Yola</li>
+          <li>Prof. Bolade O. Agboola | American University of Nigeria, Yola, Nigeria</li>
           <li>Prof. Olumide Longe | American University of Nigeria, Yola, Nigeria</li>
           <li>Dr. Prabhakar Rontala Subramaniam | University of KwaZulu-Natal, South Africa</li>
           <li>Prof. Seun Oyekola | Cape Peninsula University of Technology</li>
